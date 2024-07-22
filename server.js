@@ -17,7 +17,7 @@ const client = new S3Client({
     },
     region: process.env.BUCKET_REGION
 });
-//
+
 
 const upload = multer({
     storage: multerS3({
