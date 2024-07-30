@@ -8,7 +8,7 @@ const multerS3 = require('multer-s3')
 // Define a port number
 const port = 4000;
 
-require("dotenv").config();
+require("dotenv").config();//
 //setup the client
 const client = new S3Client({
     credentials: {
